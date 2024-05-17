@@ -28,6 +28,18 @@ body{
     font-size: 3rem;  
     margin: 1rem 0;  
 }
+@media only screen and (max-width:620px){
+    .main__container-heading h1{
+        font-size: 2.5rem;
+    }
+    
+}
+@media only screen and (max-width:515px){
+    .main__container-heading h1{
+        font-size: 2rem;
+    }
+    
+}
 .main__container-input{
     display: flex;
     flex-direction: column;
