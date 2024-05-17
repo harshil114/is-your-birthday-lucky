@@ -52,4 +52,26 @@ input{
     font-size: 1rem;
     font-weight: 600;
 }
+#error-msg{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.footer{
+    margin-top: 6rem;
+}
+.footer-container-list{
+    display: flex;    
+}
+li{
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+    margin: 1rem;
+}
+a img{
+    height: 50px;
+}
+
 
