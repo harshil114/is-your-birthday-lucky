@@ -85,5 +85,11 @@ a{
 a img{
     height: 50px;
 }
+.footer__text{
+    margin-top: 1rem;
+    /* background-color: red; */
+    font-size: 1.1rem;
+    display: inline;
+}
 
 
