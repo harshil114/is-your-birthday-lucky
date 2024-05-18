@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-image:url("assets/bg.jpg");    
+
+body {
+    background-image: url("assets/bg.jpg");
     background-repeat: no-repeat;
     object-position: top left;
     background-size: cover;
@@ -12,84 +14,97 @@ body{
     height: 100vh;
     font-family: "Happy Monkey", system-ui;
 }
-.main__container{
+
+.main__container {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
     color: black;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     align-items: center;
     width: 94vw;
     margin: 2rem auto;
     height: 90vh;
-    box-shadow: -10px 0 10px rgba(0, 0,0,0.1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
 }
-.main__container-heading h1{
-    font-size: 3rem;  
-    margin: 1rem 0;  
+
+.main__container-heading h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
 }
-@media only screen and (max-width:620px){
-    .main__container-heading h1{
+
+@media only screen and (max-width:620px) {
+    .main__container-heading h1 {
         font-size: 2.5rem;
     }
-    
+
 }
-@media only screen and (max-width:515px){
-    .main__container-heading h1{
+
+@media only screen and (max-width:515px) {
+    .main__container-heading h1 {
         font-size: 2rem;
     }
-    
+
 }
-.main__container-input{
+
+.main__container-input {
     display: flex;
     flex-direction: column;
 }
-label{
+
+label {
     font-size: 2rem;
     font-weight: 500;
     margin: 1rem;
 }
-input{
+
+input {
     padding: 0.5rem;
-    border: 1px  solid ;
+    border: 1px solid;
 }
-.main__container-btn{
-    margin: 1rem 0;    
+
+.main__container-btn {
+    margin: 1rem 0;
 }
-#button{
+
+#button {
     padding: 0.5rem 1rem;
-    border: 1px solid ;
+    border: 1px solid;
     background-color: white;
     font-family: "Happy Monkey", system-ui;
     font-size: 1rem;
     font-weight: 600;
 }
-#error-msg{
+
+#error-msg {
     font-weight: 700;
     font-size: 1.3rem;
 }
 
-.footer{
+.footer {
     margin-top: 6rem;
 }
-.footer-container-list{
-    display: flex;    
+
+.footer-container-list {
+    display: flex;
 }
-li{
-    list-style: none;   
+
+li {
+    list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     margin: 1rem;
 }
-a img{
+
+a img {
     height: 50px;
 }
-.footer__text{
+
+.footer__text {
     margin-top: 1rem;
     /* background-color: red; */
     font-size: 1.1rem;
     display: inline;
 }
-
-
